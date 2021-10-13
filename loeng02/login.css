@@ -1,0 +1,11 @@
+label {
+    color: blue;
+}
+.eralduskuubik {
+    border: black; border-style: solid;
+    width: 300px;
+    background-color: aliceblue;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
