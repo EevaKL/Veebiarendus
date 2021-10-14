@@ -1,11 +1,14 @@
 label {
-    color: blue;
+    color: rgb(3, 105, 107);
 }
 .eralduskuubik {
-    border: black; border-style: solid;
-    width: 300px;
-    background-color: aliceblue;
+    border: rgb(0, 152, 155); border-style: solid;
+    width: 350px;
+    background-color: lightpink;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+.pohitaust {
+    background-color: turquoise;
 }
