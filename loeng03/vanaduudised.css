@@ -1,120 +1,131 @@
 body {
     background-image: url(KIKRE.png);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .konteiner {
     max-width: 900px;
     min-height: 500px;
     padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.397);
+    background-color: rgba(255, 255, 255, 0.699);
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px 30px 15px 15px;
+    box-shadow: 0px 0px 15px currentcolor;
 }
 
 .blokk1 {
-    width: 220px;
+    width: 280px;
     height: 220px;
     padding: 5px;
     border-width: 1px;
-    border-radius: 30px;
+    border-radius: 5px;
     background: url(kaabuvend.png);
-    background-size: 300px 250px;
+    background-size: 300px 230px;
+    box-shadow: 0px 0px 15px currentcolor;
 }
 
 .blokk2 {
-    width: 220px;
+    width: 280px;
     height: 220px;
     padding: 5px;
     border-width: 1px;
-    border-radius: 30px;
+    border-radius: 5px;
     background: url(Kaabuvend_targutamas.png); 
-    background-size: 300px 250px;
+    background-size: 300px 230px;
+    box-shadow: 0px 0px 15px currentcolor;
 }
 
 .blokk3 {
-    width: 220px;
+    width: 280px;
     height: 220px;
     padding: 5px;
     border-width: 1px;
-    border-radius: 30px;
+    border-radius: 5px;
     background: url(reklaamibuss.png); 
-    background-size: 300px 250px;
+    background-size: 300px 230px;
+    box-shadow: 0px 0px 15px currentcolor;
 }
 
 .blokk4 {
-    width: 220px;
+    width: 280px;
     height: 220px;
     padding: 5px;
     border-width: 1px;
-    border-radius: 30px;
+    border-radius: 5px;
     background: url(pappikulub.png);
-    background-size: 300px 250px;
+    background-size: 300px 230px;
+    box-shadow: 0px 0px 15px currentcolor;
 }
 
 .blokk5 {
-    width: 220px;
+    width: 280px;
     height: 220px;
     padding: 5px;
     border-width: 1px;
-    border-radius: 30px;
+    border-radius: 5px;
     background: url(kaabuklaabu.png);
-    background-size: 300px 250px;
+    background-size: 300px 230px;
+    box-shadow: 0px 0px 15px currentcolor;
 }
 
 .blokk6 {
-    width: 220px;
+    width: 280px;
     height: 220px;
     padding: 5px;
     border-width: 1px;
-    border-radius: 30px;
+    border-radius: 5px;
     background: url(KIKRE.png);
-    background-size: 300px 250px;
+    background-size: 300px 230px;
+    box-shadow: 0px 0px 15px currentcolor;
 }
 
 .blokkideblokk {
-    width: 200px;
-    height: 200px;
+    width: 262px;
+    height: 205px;
     padding: 0.5rem;
     border-width: 1px;
-    border-radius: 30px;
+    border-radius: 15px 50px 30px 5px;
     background-color: rgb(0,0,0);
     background-color: rgba(0, 0, 0, 0.623);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .h1 {
     max-width: 900px;
     max-height: 200px;
-    background-color: rgba(111, 197, 247, 0.801);
+    background-color: rgba(111, 197, 247, 0.842);
     padding: 1rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    border-radius: 15px 50px 30px 5px;
+    box-shadow: 0px 0px 15px currentcolor;
 }
 
 h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 4rem;
+    font-family: 'Special Elite', cursive;
+    font-size: 3rem;
     line-height: 1rem;
+    letter-spacing: 5px;
 }
 
 h2 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 2rem;
-    line-height: 0.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
 }
 
 h3 {
     color: white;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -122,6 +133,7 @@ p {
     color: white;
     font-size: 1rem;
     font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1rem;
 }
 
 a {
