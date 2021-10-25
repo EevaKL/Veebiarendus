@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background-image: url(./assets/Magnolia\ signatuur\ graafika\ \(Website\).png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(41, 40, 40);
+    box-shadow: 0px 0px 15px black;
+}
+
+footer {
+    background-color: rgb(41, 40, 40);
+    box-shadow: 0px 0px 15px black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-image: url(./assets/Untitled\ design-5.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px black;
+}
+
+main > aside {
+    width: 20%;
+    height: auto;
+}
+
+main > section {
+    width: 60%;
+    height: auto;
+}
+
+main > section p,td {
+    font-size: 17px;
+}
+
+.külg_pealkiri {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: 1x;
+}
+
+p {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+a:link {
+    text-decoration: none;
+  }  
+
+/* Päise kirjeldus */
+header {
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px 10px 0px 0px;
+}
+
+header img {
+    height: 150px;
+    padding: 1px;
+    padding-left: 20px;
+}
+
+.ostukorv {
+    align-items: center;
+    padding-right: 30px;
+}
+
+.ostukorv a {
+    color: rgb(255, 0, 179);
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.ostukorv :hover {
+    color: rgb(255, 116, 158);
+    cursor: pointer;
+}
+
+
+/* Navigatsiooni ala */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a{
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(221, 206, 206);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    color: rgb(255, 116, 158);
+    cursor: pointer;
+}
+
+/* Sisuala */
+main section {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+main section form > * {
+    margin-bottom: 10px;
+}
+
+.sisu-pealkiri {
+    padding-top: 20px;
+    padding-bottom: 300px;
+}
+
+main section table {
+    text-align: left;
+}
+
+main section table td {
+    padding-left: 20px;
+}
+
+main section a {
+    color: rgb(255, 0, 179);
+    font-weight: bold;
+}
+
+main section a:hover {
+    color: rgb(255, 116, 158);
+    cursor: pointer;
+}
+
+/* Külgpaanid */
+aside img {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-style: double;
+    border-color: black;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+main > aside {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+/* Vasak külgpaan */
+aside ul {
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside li a{
+    color: rgb(255, 0, 179);
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+aside li a:hover {
+    color: rgb(255, 116, 158);
+    cursor: pointer;
+}
+
+/* Jalus */
+footer > section {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer div {
+    padding: 10px;
+}
+
+.footer_nav {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer_nav a {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(255, 0, 179);
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.footer_nav p {
+    color: rgb(221, 206, 206);
+    letter-spacing: 2px;
+}
+
+.footer_nav a:hover {
+    color: rgb(255, 116, 158);
+    cursor: pointer;
+}
+
+.footer_credits {
+    background-color: rgba(255, 0, 179, 0.37);
+    text-align: center;
+    padding: 0px;
+    font-size: small;
+    border-radius: 0px 0px 10px 10px;
+}
