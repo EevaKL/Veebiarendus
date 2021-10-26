@@ -2,32 +2,181 @@
     box-sizing: border-box;
 }
 
-header,
-nav,
-footer {
+/* MOBILE*/ 
+@media only screen and (max-width: 600px) {
+    header,
+    nav,
+    footer {
+        width: 100%;
+        min-height: 50px;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+    main {
+        width: 100%;
+        height: 700px;
+        display: flex;
+    }
+    
+    main > aside {
+        width: 20%;
+        background-color: aquamarine;
+        height: 100%;
+    }
+    
+    main > section {
+        width: 60%;
+        height: 100%;
+    }
+
+    aside {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        min-height: 100px;
+        background-color: rgb(41, 40, 40);
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    nav li a{
+        color: rgb(221, 206, 206);
+        font-weight: bold;
+    }
+
+    nav li a:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    /* Päise kirjeldus */
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: white;
+    padding-right: 20px;
+    }
+
+    header img {
+    height: 80px;
+}
+
+    /* Sisuala */
+section {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+section div {
+    margin-bottom: 15px;
+}
+
+section form > * {
+    margin-bottom: 10px;
+}
+
+    /* Jalus */
+footer > section {
     width: 100%;
     min-height: 50px;
-    background-color: aqua;
-    border-style: solid;
-    border-width: 1px;
-}
-
-main {
-    width: 100%;
-    height: 700px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
 }
 
-main > aside {
-    width: 20%;
-    background-color: aquamarine;
-    height: 100%;
+footer div {
+    padding: 10px;
 }
 
-main > section {
-    width: 60%;
-    height: 100%;
+.footer_nav {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
+.footer_nav a {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(255, 0, 179);
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.footer_nav p {
+    color: rgb(221, 206, 206);
+    letter-spacing: 2px;
+}
+
+.footer_nav a:hover {
+    color: rgb(255, 116, 158);
+    cursor: pointer;
+}
+
+.footer_credits {
+    background-color: rgba(255, 0, 179, 0.37);
+    text-align: center;
+    padding: 0px;
+    font-size: small;
+    border-radius: 0px 0px 10px 10px;
+}
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) {
+    header,
+    nav,
+    footer {
+        width: 100%;
+        min-height: 50px;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+    main {
+        width: 100%;
+        height: 700px;
+        display: flex;
+    }
+    
+    main > aside {
+        width: 20%;
+        background-color: aquamarine;
+        height: 100%;
+    }
+    
+    main > section {
+        width: 60%;
+        height: 100%;
+    }
+
+    .külg_pealkiri a {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
 
 /* Päise kirjeldus */
 header {
@@ -35,12 +184,12 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    background-color: bisque;
+    background-color: white;
     padding-right: 20px;
 }
 
 header img {
-    height: 100px;
+    height: 95px;
 }
 
 /* Navigatsiooni ala */
@@ -179,4 +328,195 @@ aside li a{
 aside li a:hover {
     color: rgb(255, 116, 158);
     cursor: pointer;
+}
+}
+
+/* Desctop */
+@media screen and (min-width: 960px) {
+    header,
+    nav,
+    footer {
+        width: 100%;
+        min-height: 50px;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+    main {
+        width: 100%;
+        height: 700px;
+        display: flex;
+    }
+    
+    main > aside {
+        width: 20%;
+        background-color: aquamarine;
+        height: 100%;
+    }
+    
+    main > section {
+        width: 60%;
+        height: 100%;
+    }
+
+    .külg_pealkiri a {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+/* Päise kirjeldus */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    padding-right: 20px;
+}
+
+header img {
+    height: 95px;
+}
+
+/* Navigatsiooni ala */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(41, 40, 40);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(221, 206, 206);
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+nav .aktiivne {
+    color: white;
+}
+
+/* Sisuala */
+section {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+section div {
+    margin-bottom: 15px;
+}
+
+section form > * {
+    margin-bottom: 10px;
+}
+
+/* Külgpaanid */
+aside img {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-style: double;
+    border-color: black;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+main > aside {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+/* Jalus */
+footer > section {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer div {
+    padding: 10px;
+}
+
+.footer_nav {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer_nav a {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(255, 0, 179);
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.footer_nav p {
+    color: rgb(221, 206, 206);
+    letter-spacing: 2px;
+}
+
+.footer_nav a:hover {
+    color: rgb(255, 116, 158);
+    cursor: pointer;
+}
+
+.footer_credits {
+    background-color: rgba(255, 0, 179, 0.37);
+    text-align: center;
+    padding: 0px;
+    font-size: small;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Vasak külgpaan */
+aside ul {
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside li a{
+    color: rgb(255, 0, 179);
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+aside li a:hover {
+    color: rgb(255, 116, 158);
+    cursor: pointer;
+}
 }
