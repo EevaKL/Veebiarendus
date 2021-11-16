@@ -5,10 +5,12 @@
 
 h2 {
     font-size: 2.4rem;
+    font-weight: bold;
     color: #083f42;
 }
 
 p {
+    letter-spacing: -0.5px;
     font-size: 1.2rem;
     color: #083f42;
 }
@@ -18,14 +20,21 @@ header {
     height: 100px;
 }
 
+hr {
+  border: 2px solid rgba(167, 126, 23, 0.466);
+}
+
 .logo {
     width: 250px;
+    margin-left: 30px;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #083f42;
     overflow: hidden;
+    padding-left: 15px;
+    padding-right: 10px;
   }
   
   /* Style the links inside the navigation bar */
@@ -79,10 +88,11 @@ main .missionclass{
   width: 350px;
   height: 500px;
   object-fit: cover;
-  margin-right: 350px;
 }
 
 main .introphotos {
+    margin-top: 60px;
+    margin-bottom: 30px;
     width: 100%;
     height: auto;
     display: flex;
@@ -106,7 +116,7 @@ footer {
 }
 
 .social {
-  margin-top: 50px;
+  margin-top: 70px;
   padding: 0;
   position: absolute;
   left: 47%;
