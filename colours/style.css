@@ -66,8 +66,11 @@ hr {
   }
 
 main .missionclass{
+    width: 100%;
     height: auto;
     display: flex;
+    margin-left: 0;
+    margin-right: 0;
     background-color: #ffff;
 }
 
@@ -76,8 +79,8 @@ main .missionclass{
     margin-top: 60px;
     margin-bottom: 30px;
     text-align: left;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .signaturegraphics {
@@ -108,7 +111,10 @@ main .introduction {
 main .introphotos {
     margin-top: 60px;
     margin-bottom: 60px;
+    margin-left: 0;
+    margin-right: 0;
     width: 100%;
+    text-align: center;
     height: auto;
     display: flex;
     padding-left: 30px;
