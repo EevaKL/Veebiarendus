@@ -68,7 +68,7 @@ hr {
 main .missionclass{
     height: auto;
     display: flex;
-    background-color: #f4b6c0;
+    background-color: #ffff;
 }
 
 
@@ -76,8 +76,8 @@ main .missionclass{
     margin-top: 60px;
     margin-bottom: 30px;
     text-align: left;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .signaturegraphics {
@@ -90,9 +90,22 @@ main .missionclass{
   object-fit: cover;
 }
 
+main .introduction {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #f4b6c0;
+}
+
 main .introphotos {
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     width: 100%;
     height: auto;
     display: flex;
@@ -100,9 +113,34 @@ main .introphotos {
     padding-right: 30px;
 }
 
-/* siia tuleb signatuurpildi peitja */
+main .extrapart {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #0c585d;
+}
 
+.extrapart h2,
+.extrapart p {
+  color: #ffffff;
+}
 
+.lastpart {
+  height: auto;
+  display: flex;
+  background-color: #ffff;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 footer {
     background-color: #083f42;
