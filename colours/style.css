@@ -24,6 +24,28 @@ hr {
   border: 2px solid rgba(167, 126, 23, 0.466);
 }
 
+img {
+  border-radius: 8px;
+}
+
+.image1 {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image2 {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo {
     width: 250px;
     margin-left: 30px;
@@ -76,11 +98,10 @@ main .missionclass{
 
 
 .mission {
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     text-align: left;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 60px; 
 }
 
 .signaturegraphics {
@@ -94,45 +115,40 @@ main .missionclass{
 }
 
 main .introduction {
-  margin-top: 30px;
-  margin-bottom: 30px;
   margin-left: 30px;
   margin-right: 30px;
   width: auto;
   height: auto;
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 60px;
   background-color: #f4b6c0;
 }
 
+.sissejuhatus {
+  padding-top: 100px;
+}
+
 main .introphotos {
-    margin-top: 60px;
-    margin-bottom: 60px;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
     text-align: center;
     height: auto;
     display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 60px;
+}
+
+.introfotod {
+  padding-top: 50px;
 }
 
 main .extrapart {
-  margin-top: 60px;
-  margin-bottom: 60px;
   margin-left: 30px;
   margin-right: 30px;
   width: auto;
   height: auto;
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 60px;
   background-color: #0c585d;
 }
 
@@ -145,11 +161,16 @@ main .extrapart {
   height: auto;
   display: flex;
   background-color: #ffff;
-  margin-top: 60px;
-  margin-bottom: 30px;
   text-align: left;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 60px;
+}
+
+.lisaosa {
+  padding-top: 80px;
+}
+
+.viimaneosa {
+  padding-top: 60px;
 }
 
 footer {
