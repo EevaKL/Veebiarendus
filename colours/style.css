@@ -20,12 +20,22 @@ header {
     height: 100px;
 }
 
+/*
 hr {
   border: 2px solid rgba(167, 126, 23, 0.466);
+}
+*/
+
+hr {
+  border: 2px solid rgba(0, 0, 0, 0.295);
 }
 
 img {
   border-radius: 8px;
+}
+
+.pattern-horizontal-stripes-xl {
+  color:  rgba(0, 0, 0, 0.26);
 }
 
 .image1 {
