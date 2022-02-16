@@ -301,11 +301,11 @@ footer div {
       text-align: left;
     }
 
-    .imgage1,
+    .image1,
     .image2 {
     width: 100%;
     object-fit: cover;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   main .introduction,
@@ -314,6 +314,17 @@ footer div {
 
   }
 
+  .mission {
+    padding: 30px
+  }
+
+  .introphotos {
+    padding: 30px;
+  }
+
+  .lastpart {
+    padding: 30px;
+  }
 
   }
 
